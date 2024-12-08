@@ -99,24 +99,24 @@
       }
 
       .p1pic {
-        margin-top: -325px;
+        margin-top: -390px;
         margin-left: 10px;
         opacity: 0.75;
       }
 
       .p2pic {
-        margin-top: -325px;
+        margin-top: -390px;
         margin-left: 10px;
         opacity: 0.75;
       }
 
       .p1picbig {
-        top: 3310px;
+        margin-top: -30px;
         margin-left: 30px;
       }
 
       .p2picbig {
-        top: 3310px;
+        margin-top: -30px;
         margin-left: 10px;
       }
 
@@ -125,51 +125,71 @@
         bottom: 200px;
       }
 
-      
+
       .containercourt1 {
-    display: flex;
-    justify-content: space-between; /* Space between the images */
-    align-items: flex-start; /* Align items at the start */
-    margin-top: 100px; /* Margin for the top */
-    margin-bottom: 460px; 
-    margin-right: 400px;
-}
-      
-      .containercourt2 {
-    display: flex;
-    justify-content: space-between; /* Space between the images */
-      align-items: flex-start; /* Align items at the start */
-    margin-top: -450px; /* Negative margin to move the container up */
-    margin-right: 400px; /* Adjust as needed */
-} 
-      
-
-.court1 {
-    width: 48%; /* Adjust width to account for margin */
-    height: auto; /* Maintain aspect ratio */
-    margin-right: 10px; /* Space to the right */
-    margin-left: -70px; /* Move the first image to the left */
-}
-
-.court2 {
-    width: 48%; /* Same width as court1 */
-    height: auto; /* Maintain aspect ratio */
-    margin-right: 0; /* Remove margin from the second image */
-}
-      
-      .court3 {
-        width: 48%; /* Adjust width to account for margin */
-    height: auto; /* Maintain aspect ratio */
-    margin-right: 10px; /* Space to the right */
-    margin-left: -70px; 
-    margin-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+        /* Space between the images */
+        align-items: flex-start;
+        /* Align items at the start */
+        margin-top: 100px;
+        /* Margin for the top */
+        margin-bottom: 460px;
+        margin-right: 400px;
       }
-      
+
+      .containercourt2 {
+        display: flex;
+        justify-content: space-between;
+        /* Space between the images */
+        align-items: flex-start;
+        /* Align items at the start */
+        margin-top: -450px;
+        /* Negative margin to move the container up */
+        margin-right: 400px;
+        /* Adjust as needed */
+      }
+
+
+      .court1 {
+        width: 48%;
+        /* Adjust width to account for margin */
+        height: auto;
+        /* Maintain aspect ratio */
+        margin-right: 10px;
+        /* Space to the right */
+        margin-left: -70px;
+        /* Move the first image to the left */
+      }
+
+      .court2 {
+        width: 48%;
+        /* Same width as court1 */
+        height: auto;
+        /* Maintain aspect ratio */
+        margin-right: 0;
+        /* Remove margin from the second image */
+      }
+
+      .court3 {
+        width: 48%;
+        /* Adjust width to account for margin */
+        height: auto;
+        /* Maintain aspect ratio */
+        margin-right: 10px;
+        /* Space to the right */
+        margin-left: -70px;
+        margin-bottom: 20px;
+      }
+
       .court4 {
-    width: 48%; /* Same width as court1 */
-    height: auto; /* Maintain aspect ratio */
-    margin-right: 0; /* Remove margin from the second image */
-}
+        width: 48%;
+        /* Same width as court1 */
+        height: auto;
+        /* Maintain aspect ratio */
+        margin-right: 0;
+        /* Remove margin from the second image */
+      }
 
       /*       BUTTONS */
       .contact-button {
@@ -197,67 +217,89 @@
         border-radius: 5px;
       }
 
-     /*       CONTACT FORM */
-      
- .contact-form {
-    background-color: #EAEDED; /* Light gray background */
-    padding: 20px;
-    border-radius: 8px;
-    max-width: 600px; /* Maximum width of the form */
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-    position: relative; /* Relative positioning */
-    margin: 100px 0 0 auto; /* Center on the right side */
-    margin-left: 600px; /* Increase this value to move it more to the right */
-   bottom: 620px;
-}
+      /*       CONTACT FORM */
 
-.row {
-    display: flex;
-    margin-bottom: 15px; /* Space between rows */
-}
+      .contact-form {
+        background-color: #EAEDED;
+        /* Light gray background */
+        padding: 20px;
+        border-radius: 8px;
+        max-width: 600px;
+        /* Maximum width of the form */
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        /* Subtle shadow */
+        position: relative;
+        /* Relative positioning */
+        margin: 100px 0 0 auto;
+        /* Center on the right side */
+        margin-left: 600px;
+        /* Increase this value to move it more to the right */
+        bottom: 620px;
+      }
 
-.col-25 {
-    flex: 25%; /* Occupy 25% of the row */
-}
+      .row {
+        display: flex;
+        margin-bottom: 15px;
+        /* Space between rows */
+      }
 
-.col-75 {
-    flex: 75%; /* Occupy 75% of the row */
-}
+      .col-25 {
+        flex: 25%;
+        /* Occupy 25% of the row */
+      }
 
-input,
-textarea {
-    width: 100%; /* Full width */
-    padding: 10px;
-    border: 1px solid #ccc; /* Border color */
-    border-radius: 4px; /* Rounded corners */
-    box-sizing: border-box; /* Include padding in width */
-}
+      .col-75 {
+        flex: 75%;
+        /* Occupy 75% of the row */
+      }
 
-.contact-submit {
-    background-color: #052765; /* Dark blue background for the button */
-    color: white; /* White text color */
-    padding: 10px 20px; /* Padding for the button */
-    border: none; /* No border */
-    border-radius: 4px; /* Rounded corners */
-    cursor: pointer; /* Pointer cursor on hover */
-    font-size: 16px; /* Font size */
-}
+      input,
+      textarea {
+        width: 100%;
+        /* Full width */
+        padding: 10px;
+        border: 1px solid #ccc;
+        /* Border color */
+        border-radius: 4px;
+        /* Rounded corners */
+        box-sizing: border-box;
+        /* Include padding in width */
+      }
 
-.contact-submit:hover {
-    background-color: #041a42; /* Darker shade on hover */
-}
+      .contact-submit {
+        background-color: #052765;
+        /* Dark blue background for the button */
+        color: white;
+        /* White text color */
+        padding: 10px 20px;
+        /* Padding for the button */
+        border: none;
+        /* No border */
+        border-radius: 4px;
+        /* Rounded corners */
+        cursor: pointer;
+        /* Pointer cursor on hover */
+        font-size: 16px;
+        /* Font size */
+      }
 
-.contact-button2 {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: white;
-    color: #052765;
-    text-decoration: none;
-    border-radius: 10px;
-    font-size: 18px;
-    margin-top: 5px;
-    margin-right: 600px; /* Adjust as needed */
-}
+      .contact-submit:hover {
+        background-color: #041a42;
+        /* Darker shade on hover */
+      }
+
+      .contact-button2 {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: white;
+        color: #052765;
+        text-decoration: none;
+        border-radius: 10px;
+        font-size: 18px;
+        margin-top: 5px;
+        margin-right: 600px;
+        /* Adjust as needed */
+      }
 
 
       /*      PROJECT SECTIONS */
@@ -278,7 +320,7 @@ textarea {
         margin-left: 760px;
         margin-top: -330px;
       }
-    
+
 
       .project1 h3 {
         color: #052765;
@@ -288,7 +330,7 @@ textarea {
         font-weight: normal;
         font-size: 21px;
       }
-      
+
       .project2 h3 {
         color: #052765;
         margin-top: 245px;
@@ -297,7 +339,7 @@ textarea {
         font-weight: normal;
         font-size: 21px;
       }
-      
+
       .project2 p {
         margin-right: 200px;
         top: 50px;
@@ -338,7 +380,7 @@ textarea {
         position: relative;
         text-align: center;
       }
-      
+
       .project2big h3 {
         color: #052765;
         top: -10px;
@@ -365,12 +407,12 @@ textarea {
         color: #052765;
         font-size: 21px;
       }
-      
+
       .text-box3 p {
         color: #052765;
         font-size: 21px;
       }
-      
+
       .text-box3 h3 {
         color: #052765;
         font-size: 30px;
@@ -475,7 +517,7 @@ textarea {
         margin-top: -370px;
         text-align: center;
       }
-    
+
 
       #section5 {
         background-color: #EAEDED;
@@ -505,11 +547,11 @@ textarea {
         height: 900px;
         background-color: white;
       }
-      
+
       #section6 h1 {
         margin: 0;
         color: #052765;
-         padding-top: 50px;
+        padding-top: 50px;
         margin-left: 600px;
       }
 
@@ -527,7 +569,7 @@ textarea {
         color: #052765;
         white-space: nowrap;
       }
-      
+
       #section7 h2 {
         margin: 0;
         font-size: 30px;
@@ -675,127 +717,127 @@ textarea {
         </div>
       </div>
     </div>
-    
+
     <!--         PAGE 2 CONTENT -->
-      <div id="page2">
+    <div id="page2">
 
-        <div id="section6" style="display: block; width: 100%;">
-          <h1>
-            MY PROJECTS
-          </h1>
+      <div id="section6" style="display: block; width: 100%;">
+        <h1>
+          MY PROJECTS
+        </h1>
 
-          <div class="project1big">
-            <h3>High Park<br>
-              Brewery Re-Brand</h3>
-            <img src="Project1.png" alt="ProjectPhoto" class="p1picbig" style="width:320px; height:320px;">
+        <div class="project1big">
+          <h3>High Park<br>
+            Brewery Re-Brand</h3>
+          <img src="Project1.png" alt="ProjectPhoto" class="p1picbig" style="width:320px; height:300px;">
 
-            <p>The goal of this project was to redesign a logo for a brand/company and develop a campaign that included a series of new video advertisements and social media strategies.</p>
+          <p>The goal of this project was to redesign a logo for a brand/company and develop a campaign that included a series of new video advertisements and social media strategies.</p>
+        </div>
+
+        <div class="project2big">
+          <h3>Court Flow<br>
+            Shoot</h3>
+          <img src="Project2.png" alt="ProjectPhoto" class="p2picbig" style="width:320px; height:300px;">
+          <p>This photo shoot aimed to capture the pure essence of flow—those moments when individuals are fully immersed in the sport they love most.</p>
+        </div>
+      </div>
+    </div>
+
+    <!--        PAGE 3 CONTENT -->
+    <div id="page3">
+      <div id="section7" style="display: block; width: 100%;">
+        <h1>
+          Court Flow Shoot
+        </h1>
+
+        <h2>
+          United Filipino <br> Basketball League
+        </h2>
+        <img src="CourtFlow.png" alt="Project Photo" class="introimg" style="width:500px; height:360px;">
+
+        <div class="text-box3">
+          <h3> About the Project</h3>
+          <p>The United Filipino League unites countless Filipinos as a community through their shared passion for basketball. This photo shoot aimed to capture the pure essence of flow—those moments when individuals are fully immersed in the sport they love most. I chose this team because their undeniable bond and impressive stats showcase their skills and dominance in the league. It’s incredible to capture the determination and teamwork that drive their hard-fought victories.When T.G.I.F takes the court, they’re completely locked in, with everything else fading into the background. These shots capture their journey—dynamic action moments, intense concentration, and celebrations.
+          </p>
+
+          <div class="containercourt1">
+            <img src="CourtPic1.png" alt="Project Photo" class="court1" style="width:480px; height:350px;">
+
+            <img src="CourtPic2.png" alt="Project Photo" class="court2" style="width:480px; height:350px;">
           </div>
+          <div class="containercourt2">
+            <img src="CourtPic3.png" alt="Project Photo" class="court3" style="width:480px; height:350px;">
 
-          <div class="project2big">
-            <h3>Court Flow<br>
-              Shoot</h3>
-            <img src="Project2.png" alt="ProjectPhoto" class="p2picbig" style="width:320px; height:320px;">
-            <p>This photo shoot aimed to capture the pure essence of flow—those moments when individuals are fully immersed in the sport they love most.</p>
+            <img src="CourtPic4.png" alt="Project Photo" class="court4" style="width:480px; height:350px;">
+
           </div>
         </div>
       </div>
 
-    <!--        PAGE 3 CONTENT -->
-      <div id="page3">
-        <div id="section7" style="display: block; width: 100%;">
+
+
+      <!--        PAGE 4 CONTENT -->
+      <div id="page4">
+
+        <div id="section8" style="display: block; width: 100%;">
           <h1>
-            Court Flow Shoot
+            Contact Me
           </h1>
 
-          <h2>
-            United Filipino <br> Basketball League
-          </h2>
-          <img src="CourtFlow.png" alt="Project Photo" class="introimg" style="width:500px; height:360px;">
+          <h2><a href="mailto:jasmine.henrii@gmail.com">jasmine.henrii@gmail.com</a></h2>
 
-          <div class="text-box3">
-            <h3> About the Project</h3>
-            <p>The United Filipino League unites countless Filipinos as a community through their shared passion for basketball. This photo shoot aimed to capture the pure essence of flow—those moments when individuals are fully immersed in the sport they love most. I chose this team because their undeniable bond and impressive stats showcase their skills and dominance in the league. It’s incredible to capture the determination and teamwork that drive their hard-fought victories.When T.G.I.F takes the court, they’re completely locked in, with everything else fading into the background. These shots capture their journey—dynamic action moments, intense concentration, and celebrations.
-            </p>
+          <h2>(226)-201-5214</h2>
 
-<div class="containercourt1">
-            <img src="CourtPic1.png" alt="Project Photo" class="court1" style="width:480px; height:350px;">
+          <img src="PicOfMee5.png" alt="Candid" class="pic5" style="width:450px; height:410px;">
 
-            <img src="CourtPic2.png" alt="Project Photo" class="court2" style="width:480px; height:350px;">
-</div>
-            <div class="containercourt2">
-            <img src="CourtPic3.png" alt="Project Photo" class="court3" style="width:480px; height:350px;">
-
-            <img src="CourtPic4.png" alt="Project Photo" class="court4" style="width:480px; height:350px;">
-          
-             </div>
-             </div>
-        </div>
-
-
-
-        <!--        PAGE 4 CONTENT -->
-        <div id="page4">
-
-          <div id="section8" style="display: block; width: 100%;">
-            <h1>
-              Contact Me
-            </h1>
-
-            <h2><a href="mailto:jasmine.henrii@gmail.com">jasmine.henrii@gmail.com</a></h2>
-
-            <h2>(226)-201-5214</h2>
-
-            <img src="PicOfMee5.png" alt="Candid" class="pic5" style="width:450px; height:410px;">
-
-<!-- CONTACT FORM -->
-<div class="contact-form">
-    <form action="action_page.php" method="post">
-        <div class="row">
-            <div class="col-25">
-                <label for="full-name">Full Name</label>
-            </div>
-            <div class="col-75">
-                <input type="text" id="full-name" name="full-name" placeholder="" required>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-25">
-                <label for="company">Company (Optional)</label>
-            </div>
-            <div class="col-75">
-                <input type="text" id="company" name="company" placeholder="">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-25">
-                <label for="phone">Phone</label>
-            </div>
-            <div class="col-75">
-                <input type="tel" id="phone" name="phone" placeholder="" required>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-25">
-                <label for="email">Email</label>
-            </div>
-            <div class="col-75">
-                <input type="email" id="email" name="email" placeholder="" required>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-25">
-                <label for="message">Message</label>
-            </div>
-            <div class="col-75">
-                <textarea id="message" name="message" placeholder="" required style="height:200px"></textarea>
-            </div>
-        </div>
-        <div class="row">
-            <input type="submit" value="Send" class="contact-submit">
-        </div>
-    </form>
-</div>
+          <!-- CONTACT FORM -->
+          <div class="contact-form">
+            <form action="action_page.php" method="post">
+              <div class="row">
+                <div class="col-25">
+                  <label for="full-name">Full Name</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="full-name" name="full-name" placeholder="" required>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="company">Company (Optional)</label>
+                </div>
+                <div class="col-75">
+                  <input type="text" id="company" name="company" placeholder="">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="phone">Phone</label>
+                </div>
+                <div class="col-75">
+                  <input type="tel" id="phone" name="phone" placeholder="" required>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="email">Email</label>
+                </div>
+                <div class="col-75">
+                  <input type="email" id="email" name="email" placeholder="" required>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-25">
+                  <label for="message">Message</label>
+                </div>
+                <div class="col-75">
+                  <textarea id="message" name="message" placeholder="" required style="height:200px"></textarea>
+                </div>
+              </div>
+              <div class="row">
+                <input type="submit" value="Send" class="contact-submit">
+              </div>
+            </form>
+          </div>
 
           <div class="footer">
             <img src="OFFICIALPortfoliologowhite 2.png" alt="Pic" class="logo2" style="width:200px; height:250px;">
@@ -804,8 +846,8 @@ textarea {
 
           </div>
         </div>
-           </div>
-       </div>
+      </div>
+    </div>
 
 
   </body>
