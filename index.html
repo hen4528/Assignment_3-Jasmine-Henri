@@ -660,7 +660,13 @@ Date retrieved: [date]
 
       .horizontal-links {
         display: flex;
-        /* Use flexbox for horizontal layout */
+         display: flex; /* Use flexbox for horizontal layout */
+            background-color: #f8f8f8; /* Example background color */
+            padding: 10px; /* Padding around links */
+            position: fixed; /* Fix it at the top */
+            top: 0; /* Position at the top */
+            width: 100%; /* Full width */
+            z-index: 1000; /* Ensure it stays above other content */
       }
     </style>
   </head>
