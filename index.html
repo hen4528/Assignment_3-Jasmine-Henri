@@ -649,14 +649,21 @@ Date retrieved: [date]
         overflow-y: hidden; 
       }
       
+      .horizontal-links {
+    display: flex; /* Use flexbox for horizontal layout */
+    gap: 10px; /* Optional: space between links */
+}
+      
     </style>
   </head>
 
-  <a href="#page0">0</a>
-  <a href="#page1">1</a>
-  <a href="#page2">2</a>
-  <a href="#page3">3</a>
-  <a href="#page4">4</a>
+ <div class="horizontal-links">
+    <a href="#page0">0</a>
+    <a href="#page1">1</a>
+    <a href="#page2">2</a>
+    <a href="#page3">3</a>
+    <a href="#page4">4</a>
+</div>
 
 
   <body>
